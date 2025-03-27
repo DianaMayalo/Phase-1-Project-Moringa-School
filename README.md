@@ -17,7 +17,7 @@ My project analyzes aviation accident data to identify risk factors affecting se
 - Safety investigators
 # Data Understanding and Analysis
 ## Source of data
-This data comes from [The NTSB aviation accident dataset up to Feb 2021](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
+This data comes from [Kaggle](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
 
 I used 7 columns for this analysis, which included variables about:
 - `Event.Id`: Date of the accident.
