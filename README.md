@@ -5,9 +5,7 @@
 
 **Author:** [Diana Mayalo](https://github.com/DianaMayalo)
 # Overview
-This project analyzes aviation accident data to identify risk factors affecting severity, aircraft damage, and injuries. The insights derived from this analysis help aviation authorities and manufacturers improve safety protocols, training, and maintenance practices.
-# Business Understanding
-Aviation accidents pose significant risks to passengers, crew, and aircraft manufacturers. By analyzing historical accident data, we aim to answer key business questions:
+My project analyzes aviation accident data to identify risk factors affecting severity, aircraft damage, and injuries. By analyzing historical accident data, I aim to answer key business questions:
 ## Key Business Questions
 1.	How do weather conditions influence the severity of injuries?
 2.	Which aircraft manufacturers have a high proportion of serious but non-fatal accidents?
@@ -19,11 +17,9 @@ Aviation accidents pose significant risks to passengers, crew, and aircraft manu
 - Safety investigators
 # Data Understanding and Analysis
 ## Source of data
-From: [The NTSB aviation accident dataset up to Feb 2021](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
+This data comes from [The NTSB aviation accident dataset up to Feb 2021](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
 
-The dataset consists of historical aviation accident records sourced from aviation safety databases and official reports. The aviation dataset contains accident records with details on injury severity, aircraft type, weather conditions, flight phase etc.
-## Description of data
-The dataset includes key attributes such as:
+I used 7 columns for this analysis, which included variables about:
 - `Event.Id`: Date of the accident.
 - `Make`: Company that produced the aircraft.
 - `Total.Fatal.Injuries`,`Total.Serious.Injuries`,`Total.Minor.Injuries`: Classification of accident severity
@@ -81,17 +77,19 @@ For additional info, contact: [Diana Mayalo](dianamayalo28@gmail.com)
 # Repository Structure
 ```
 Phase-1-Project-Moringa-School/
-│-- 📂 data/
-│   │-- AviationData.csv          
-│   │-- cleaned_data.csv 
-|   |-- USState_Codes.csv          
 │-- 📂 Images/
-│   │-- serious_non-fatal_injuries_by_make.png    
-│   │-- weather_condition_by_injuries.png       
-│   │-- aircraft_damage_by_flight_phase.png    
-|   |-- injuries_by_flight_phase.png  
+|   |-- Aircraft.jpg
+|   |-- aircraft_damage_by_flight_phase.png 
+│   │-- injuries_by_flight_phase.png        
+│   │-- serious_non-fatal_injuries_by_make.png 
+|   |-- weather_condition_by_injuries.png        
+│-- 📂 data/
+│   │-- AviationData.csv     
+│   │-- AviationData_Cleaned.csv      
+│   │-- USState_Codes.csv   
 │-- 📂 notebook/
-│   │-- Aviation.ipynb  
-|-- |-- AviationVizz.twb           
+│   │-- Aviation.ipynb 
+|-- .gitignore 
+|-- AviationVizz.twb           
 │-- README.md                   
 ```
