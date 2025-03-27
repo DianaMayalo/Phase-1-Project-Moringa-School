@@ -1,5 +1,6 @@
-# Phase-1-Project-Moringa-School
 # Aviation Accident Analysis
+
+![Aviation](C:\Users\ADMIN\Documents\MoringaSchool\Phase1\Phase1Project\Images\Aircraft.jpg)
 
 
 **Author:** [Diana Mayalo](https://github.com/DianaMayalo)
