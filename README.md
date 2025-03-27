@@ -1,6 +1,6 @@
 # Aviation Accident Analysis
 
-![Aviation](C:\Users\ADMIN\Documents\MoringaSchool\Phase1\Phase1Project\Images\Aircraft.jpg)
+![Aviation](./Images/Aircraft.jpg)
 
 
 **Author:** [Diana Mayalo](https://github.com/DianaMayalo)
@@ -31,6 +31,19 @@ The dataset includes key attributes such as:
 - `Aircraft Damage`: Extent of damage sustained by the aircraft.
 
 # Visualizations
+ 
+Visual meteorological conditions (VMC) and instrument meteorological conditions (IMC) weather conditions cause more fatal injuries.
+
+![Impact of Weather Conditions on Injury Severity](./Images/serious_non-fatal_injuries_by_make.png)
+
+Cessna and Piper manufacturers have more serious but non-fatal accidents
+
+![Serious but Non-Fatal Injuries by Make](./Images/weather_condition_by_injuries.png)
+
+
+Maneuvering and Cruise phases cause the most aircraft damage. Landing and Takeoff lead to more substantial damage. 
+
+![Aircraft Damage by Flight Phase](./Images/aircraft_damage_by_flight_phase.png)
 
 # Conclusion
 1. Weather plays a major role in the severity of aviation accidents.
@@ -57,3 +70,21 @@ Further analyses could yield additional insights to further improve operations:
   
 # For More Information
 
+
+
+
+# Repository Structure
+Phase-1-Project-Moringa-School/
+│-- 📂 data/
+│   │-- AviationData.csv
+│   │-- cleaned_data.csv
+│
+│-- 📂 images/
+│   │-- serious_non-fatal_injuries_by_make.png
+│   │-- weather_condition_by_injuries.png
+|-- |-- aircraft_damage_by_flight_phase.png
+│
+│-- 📂 notebook/
+│   │-- Aviation.ipynb
+│
+│-- README.md
