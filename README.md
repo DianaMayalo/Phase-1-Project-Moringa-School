@@ -20,15 +20,16 @@ Aviation accidents pose significant risks to passengers, crew, and aircraft manu
 # Data Understanding and Analysis
 ## Source of data
 From: [The NTSB aviation accident dataset up to Feb 2021](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
+
 The dataset consists of historical aviation accident records sourced from aviation safety databases and official reports. The aviation dataset contains accident records with details on injury severity, aircraft type, weather conditions, flight phase etc.
 ## Description of data
 The dataset includes key attributes such as:
-- `Event Date`: Date of the accident.
-- `Aircraft Manufacturer`: Company that produced the aircraft.
-- `Injury Severity`: Classification of accident severity (e.g., minor, serious, fatal).
-- `Flight Phase`: Phase of flight during which the accident occurred.
-- `Weather Conditions`: Atmospheric conditions at the time of the accident.
-- `Aircraft Damage`: Extent of damage sustained by the aircraft.
+- `Event.Id`: Date of the accident.
+- `Make`: Company that produced the aircraft.
+- `Total.Fatal.Injuries`,`Total.Serious.Injuries`,`Total.Minor.Injuries`: Classification of accident severity
+- `Broad.phase.of.flight`: Phase of flight during which the accident occurred.
+- `Weather.Condition`: Atmospheric conditions at the time of the accident.
+- `Aircraft.damage`: Extent of damage sustained by the aircraft.
 
 # Visualizations
  
@@ -44,6 +45,10 @@ Cessna and Piper manufacturers have more serious but non-fatal accidents
 Maneuvering and Cruise phases cause the most aircraft damage. Landing and Takeoff lead to more substantial damage. 
 
 ![Aircraft Damage by Flight Phase](./Images/aircraft_damage_by_flight_phase.png)
+
+Takeoff and cruise flight phases have the highest injuries
+
+![Injuries by Flight Phase](./Images/injuries_by_flight_phase.png)
 
 # Conclusion
 1. Weather plays a major role in the severity of aviation accidents.
@@ -70,21 +75,23 @@ Further analyses could yield additional insights to further improve operations:
   
 # For More Information
 
-
+For additional info, contact: [Diana Mayalo](dianamayalo28@gmail.com)
 
 
 # Repository Structure
+```
 Phase-1-Project-Moringa-School/
 │-- 📂 data/
-│   │-- AviationData.csv
-│   │-- cleaned_data.csv
-│
-│-- 📂 images/
-│   │-- serious_non-fatal_injuries_by_make.png
-│   │-- weather_condition_by_injuries.png
-|-- |-- aircraft_damage_by_flight_phase.png
-│
+│   │-- AviationData.csv          
+│   │-- cleaned_data.csv 
+|   |-- USState_Codes.csv          
+│-- 📂 Images/
+│   │-- serious_non-fatal_injuries_by_make.png    
+│   │-- weather_condition_by_injuries.png       
+│   │-- aircraft_damage_by_flight_phase.png    
+|   |-- injuries_by_flight_phase.png  
 │-- 📂 notebook/
-│   │-- Aviation.ipynb
-│
-│-- README.md
+│   │-- Aviation.ipynb  
+|-- |-- AviationVizz.twb           
+│-- README.md                   
+```
