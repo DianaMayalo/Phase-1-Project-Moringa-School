@@ -1,4 +1,4 @@
-# Aviation Accident Analysis
+# Aviation Safety Analysis
 
 ![Aviation](./Images/Aircraft.jpg)
 
