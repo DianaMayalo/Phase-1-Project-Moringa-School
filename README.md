@@ -18,7 +18,7 @@ Air travel is considered one of the safest modes of transportation, but accident
 - Safety investigators
 # Data Understanding and Analysis
 ## Source of data
-This data comes from [Kaggle](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses)
+In the data folder is a [dataset](https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses) from the National Transportation Safety Board that includes aviation accident data from 1962 to 2023 about civil aviation accidents and selected incidents in the United States and international waters.
 
 I used 8 columns for this analysis, which included variables about:
 - **Aircraft Details**  
@@ -76,6 +76,7 @@ I used 8 columns for this analysis, which included variables about:
 
 For additional info, contact: [Diana Mayalo](dianamayalo28@gmail.com)
 
+🚀 **Explore More in Tableau:** [Interactive Dashboard](https://public.tableau.com/views/AircraftSafetyAnalysis_17431527776500/AviationDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 # Repository Structure
 ```
