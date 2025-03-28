@@ -90,7 +90,10 @@ Phase-1-Project-Moringa-School/
 │   │-- USState_Codes.csv   
 │-- 📂 notebook/
 │   │-- AviationAnalysis.ipynb 
+|   |-- notebook.pdf
 |-- .gitignore 
 |-- Aviation_Vizz.twb           
-│-- README.md                   
+│-- README.md  
+|-- presentation.pdf
+|-- github.pdf              
 ```
