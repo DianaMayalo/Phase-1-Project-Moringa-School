@@ -46,7 +46,7 @@ I used 8 columns for this analysis, which included variables about:
 - The maneuvering phase follows, with over 5,000 fatalities.
 - Mid-flight incidents, particularly during cruise and maneuvering phases, account for the highest fatality counts.
 
-![Fatalities by Phase of Flight](Images/fatalities_by_flight_phase.png)
+![Fatalities by Phase of Flight](Images/fatality_by_flight_phase.png)
 
 
 - Boeing 737 has the highest fatalities (approximately 1350 cases) - maybe because it is the the most widely used commercial aircraft.
@@ -93,6 +93,6 @@ Phase-1-Project-Moringa-School/
 │-- 📂 notebook/
 │   │-- AviationAnalysis.ipynb 
 |-- .gitignore 
-|-- AviationVizz.twb           
+|-- Aviation_Vizz.twb           
 │-- README.md                   
 ```
