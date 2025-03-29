@@ -7,10 +7,10 @@
 # Overview
 Air travel is considered one of the safest modes of transportation, but accidents still occur. In my analysis, I aim to identify the safest aircraft by examining accident data and identifying trends related to fatalities, injuries, and aircraft damage. I aim to answer key business questions:
 ## Key Business Questions
-1. **Aircraft Damage Distribution by Make** – Understanding how often different aircraft makes sustain serious damage. 
-2. **Fatalities by Phase of Flight** – Identifying the which flight phases have the most fatalities 
-3. **Fatality Rate by Aircraft Model** – Identify which aircraft models have the highest fatalities.  
-4. **Total Uninjured Persons by Aircraft Make** – Identify the aircraft make with no injuries. 
+1. How frequently do aircraft sustain serious damage across different manufacturers? 
+2. During which phases of flight do most fatal accidents occur? 
+3. Which aircraft models have the highest fatality rates? 
+4. Which aircraft manufacturers have the safest records based on uninjured passengers? 
 ## Stakeholders
 The insights from this analysis are valuable to stakeholders in the aviation industry including:
 - Aviation regulatory authorities
