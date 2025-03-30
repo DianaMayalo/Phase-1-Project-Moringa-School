@@ -94,6 +94,5 @@ Phase-1-Project-Moringa-School/
 |-- .gitignore 
 |-- Aviation_Vizz.twb           
 │-- README.md  
-|-- presentation.pdf
-|-- github.pdf              
+|-- presentation.pdf              
 ```
